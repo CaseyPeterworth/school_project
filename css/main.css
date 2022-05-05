@@ -1,0 +1,107 @@
+/*******
+GENERAL
+*******/
+
+/*set font for website*/
+body {
+    font-family: 'Bebas Neue', 'Bungee', 'Heebo', 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/*remove underlines from links*/
+a{
+    text-decoration: none;
+}
+
+/*remove all bullet points*/
+ul {
+    list-style: none;
+}
+
+/* images 100% of their container*/
+img {
+    max-width: 100%;
+}
+
+/*set wrapper*/
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+h1 {
+    font-size: 1.75em;
+    font-weight: 400;
+    margin: 20px 0 0 10px;
+    padding-bottom: 15px;
+}
+
+h2 {
+    font-family: 'Bungee';
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    font-family: 'Bungee';
+    font-size: .55em;
+}
+
+li {
+    display: inline;
+    margin: 0 0 0 40px;
+}
+
+body {
+    background-image: url('../img/4446627.webp');
+    background-size: auto;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display:flexbox
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
