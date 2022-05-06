@@ -9,13 +9,14 @@
     <title>My Anime Picker</title>
     <!--FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Heebo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Heebo&display=swap"
+        rel="stylesheet">
     <!--CSS LINKS-->
     <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 
-    
+
 </head>
 
 <body>
@@ -39,23 +40,67 @@
         <!--NAVIGATION FINISH-->
     </header>
     <!--HEADER FINISH-->
-    
+
     <!--DROPDOWNS START-->
-    
-    <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Genre</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="#">Action</a>
-          <a href="#">Comedy</a>
-          <a href="#">Horror</a>
-          <a href="#">Romance</a>
-          <a href="#">Slice of Life</a>
-          <a href="#">Drama</a>
-          <a href="#">Psycholigical</a>
-          <a href="#">Magic</a>
+
+    <div class="dropdown_list">
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">Genre</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">Action</a>
+                <a href="#">Comedy</a>
+                <a href="#">Horror</a>
+                <a href="#">Romance</a>
+                <a href="#">Slice of Life</a>
+                <a href="#">Drama</a>
+                <a href="#">Psychological</a>
+                <a href="#">Magic</a>
+            </div>
         </div>
-      </div>
-<script src="scripts.js"></script>
+
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">Genre</button>
+            <div id="comedyDropdown" class="dropdown-content">
+                <a href="#">Action</a>
+                <a href="#">Comedy</a>
+                <a href="#">Horror</a>
+                <a href="#">Romance</a>
+                <a href="#">Slice of Life</a>
+                <a href="#">Drama</a>
+                <a href="#">Psychological</a>
+                <a href="#">Magic</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">Genre</button>
+            <div id="horrorDropdown" class="dropdown-content">
+                <a href="#">Action</a>
+                <a href="#">Comedy</a>
+                <a href="#">Horror</a>
+                <a href="#">Romance</a>
+                <a href="#">Slice of Life</a>
+                <a href="#">Drama</a>
+                <a href="#">Psychological</a>
+                <a href="#">Magic</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">Genre</button>
+            <div id="romanceDropdown" class="dropdown-content">
+                <a href="#">Action</a>
+                <a href="#">Comedy</a>
+                <a href="#">Horror</a>
+                <a href="#">Romance</a>
+                <a href="#">Slice of Life</a>
+                <a href="#">Drama</a>
+                <a href="#">Psychological</a>
+                <a href="#">Magic</a>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
