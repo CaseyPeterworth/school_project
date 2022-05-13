@@ -20,87 +20,95 @@
 </head>
 
 <body>
-    <!--HEADER START-->
-    <header>
-        <!--CLICKABLE LOGO THAT TAKES YOU TO THE HOMEPAGE-->
-        <a href="index.html" id="logo">
-            <h1>My Anime Picker</h1>
-        </a>
-        <!--WEBSITE TITLE-->
-        <h2>Custom Anime Recommendations</h2>
+    <div id="mainDiv">
+        <!--HEADER START-->
+        <header>
+            <!--CLICKABLE LOGO THAT TAKES YOU TO THE HOMEPAGE-->
+            <a href="index.html" id="logo">
+                <h1>My Anime Picker</h1>
+            </a>
+            <!--WEBSITE TITLE-->
+            <h2 id="subtitle">Custom Anime Recommendations</h2>
 
-        <!--NAVIGATION START-->
-        <nav>
-            <!--LIST OF LINKS-->
-            <ul>
-                <li><a href="#" class="selected">Home</a> </li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-        <!--NAVIGATION FINISH-->
-    </header>
-    <!--HEADER FINISH-->
+            <!--NAVIGATION START-->
+            <nav id="nav">
+                <!--LIST OF LINKS-->
+                <ul>
+                    <li><a href="#" class="selected">Home</a> </li>
+                    <li id="about"><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <!--NAVIGATION FINISH-->
+        </header>
+        <!--HEADER FINISH-->
 
-    <!--DROPDOWNS START-->
+        <!--DROPDOWNS START-->
 
-    <div class="dropdown_list">
-        <div class="dropdown">
-            <button onclick="myFunction(this)" class="dropbtn">Genre</button>
-            <div id="myDropdown" class="dropdown-content">
-                <a href="#">Action</a>
-                <a href="#">Comedy</a>
-                <a href="#">Horror</a>
-                <a href="#">Romance</a>
-                <a href="#">Slice of Life</a>
-                <a href="#">Drama</a>
-                <a href="#">Psychological</a>
-                <a href="#">Magic</a>
+        <div class="dropdown_list">
+            <div class="dropdown">
+                <button onclick="myFunction(this)" class="dropbtn">Genre</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Action</a>
+                    <a href="#">Comedy</a>
+                    <a href="#">Horror</a>
+                    <a href="#">Romance</a>
+                    <a href="#">Slice of Life</a>
+                    <a href="#">Drama</a>
+                    <a href="#">Psychological</a>
+                    <a href="#">Magic</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button onclick="myFunction(this)" class="dropbtn">Genre</button>
+                <div id="comedyDropdown" class="dropdown-content">
+                    <a href="#">Action</a>
+                    <a href="#">Comedy</a>
+                    <a href="#">Horror</a>
+                    <a href="#">Romance</a>
+                    <a href="#">Slice of Life</a>
+                    <a href="#">Drama</a>
+                    <a href="#">Psychological</a>
+                    <a href="#">Magic</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button onclick="myFunction(this)" class="dropbtn">Genre</button>
+                <div id="horrorDropdown" class="dropdown-content">
+                    <a href="#">Action</a>
+                    <a href="#">Comedy</a>
+                    <a href="#">Horror</a>
+                    <a href="#">Romance</a>
+                    <a href="#">Slice of Life</a>
+                    <a href="#">Drama</a>
+                    <a href="#">Psychological</a>
+                    <a href="#">Magic</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button onclick="myFunction(this)" class="dropbtn">Genre</button>
+                <div id="romanceDropdown" class="dropdown-content">
+                    <a href="#">Action</a>
+                    <a href="#">Comedy</a>
+                    <a href="#">Horror</a>
+                    <a href="#">Romance</a>
+                    <a href="#">Slice of Life</a>
+                    <a href="#">Drama</a>
+                    <a href="#">Psychological</a>
+                    <a href="#">Magic</a>
+                </div>              
+            </div>
+            <div id="submitBtn">
+                <button type="button" class="btn btn-success">Submit</button>
+            </div>
+            <div id="gif">
+                <img src="https://45.media.tumblr.com/3216151b93b0b9c30babd5de2c5729d8/tumblr_o180douRCC1rzz3ueo1_500.gif" alt="girl lying on floor">
             </div>
         </div>
-
-        <div class="dropdown">
-            <button onclick="myFunction(this)" class="dropbtn">Genre</button>
-            <div id="comedyDropdown" class="dropdown-content">
-                <a href="#">Action</a>
-                <a href="#">Comedy</a>
-                <a href="#">Horror</a>
-                <a href="#">Romance</a>
-                <a href="#">Slice of Life</a>
-                <a href="#">Drama</a>
-                <a href="#">Psychological</a>
-                <a href="#">Magic</a>
-            </div>
-        </div>
-
-        <div class="dropdown">
-            <button onclick="myFunction(this)" class="dropbtn">Genre</button>
-            <div id="horrorDropdown" class="dropdown-content">
-                <a href="#">Action</a>
-                <a href="#">Comedy</a>
-                <a href="#">Horror</a>
-                <a href="#">Romance</a>
-                <a href="#">Slice of Life</a>
-                <a href="#">Drama</a>
-                <a href="#">Psychological</a>
-                <a href="#">Magic</a>
-            </div>
-        </div>
-
-        <div class="dropdown">
-            <button onclick="myFunction(this)" class="dropbtn">Genre</button>
-            <div id="romanceDropdown" class="dropdown-content">
-                <a href="#">Action</a>
-                <a href="#">Comedy</a>
-                <a href="#">Horror</a>
-                <a href="#">Romance</a>
-                <a href="#">Slice of Life</a>
-                <a href="#">Drama</a>
-                <a href="#">Psychological</a>
-                <a href="#">Magic</a>
-            </div>
-        </div>
+        <script src="scripts.js"></script>
     </div>
-    <script src="scripts.js"></script>
 </body>
 
 </html>

@@ -7,8 +7,21 @@ body {
     font-family: 'Bebas Neue', 'Bungee', 'Heebo', 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: 400;
+    position: relative;
 }
 
+#mainDiv {
+    width: 60%;
+    background-color: rgba(255, 255, 255, .8);
+    position: fixed;
+    margin-left: 20%;
+    padding-bottom: 100%;
+
+}
+
+#menu {
+    align-content: center;
+}
 /*remove underlines from links*/
 a {
     text-decoration: none;
@@ -45,24 +58,42 @@ h2 {
     text-align: center;
 }
 
+#nav {
+    display: flexbox;
+    align-content: center;
+}
+
 ul {
     text-align: center;
     font-family: 'Bungee';
-    font-size: .55em;
+    font-size: .75em;
+    align-content: center;
+    margin: 0 0 50px -40px;
 }
 
 li {
     display: inline;
+    align-content: center;
+}
+
+#about {
     margin: 0 0 0 40px;
 }
 
 body {
-    background-image: url('../img/4446627.webp');
-    background-size: auto;
+    background: url('../img/4446627.webp') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /* Dropdown List*/
-.dropdown_list {}
+.dropdown_list {
+    display: flexbox;
+    align-content: center;
+
+}
 
 /* Dropdown Button */
 .dropbtn {
@@ -72,6 +103,8 @@ body {
     font-size: 16px;
     border: none;
     cursor: pointer;
+    margin: 20px;
+    width: 145px;
 }
 
 /* Dropdown button on hover & focus */
@@ -113,3 +146,63 @@ body {
 .show {
     display: block;
 }
+
+#submitBtn {
+    font-family: 'Bungee';
+    font-size: .60em;
+    display: flex;
+    margin: 50px 0 0 328px;
+}
+
+#gif {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: 70px;
+    margin-left: -250px;
+}
+
+/* Mobile First media query */
+
+@media only screen and (max-width: 600px) {
+    h2 {
+        font-size: .70em;
+    }
+
+    #logo {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .dropdown_list {
+        display: flexbox;
+        margin: 25px;
+    
+    }
+
+    #submitBtn {
+        font-family: 'Bungee';
+        font-size: .5em;
+        display: flex;
+        margin: 0 0 0 50px;
+    }
+
+    ul {
+        margin: 0 0 0 -45px;
+
+    }
+
+    li {
+        margin: 4px;
+    }
+
+    p {
+        font-size: .5em;
+        text-align: center;
+    }
+
+    #gif {
+        display: none;
+    }
+
+  }
