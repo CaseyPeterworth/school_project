@@ -22,6 +22,7 @@ body {
 #menu {
     align-content: center;
 }
+
 /*remove underlines from links*/
 a {
     text-decoration: none;
@@ -81,10 +82,10 @@ li {
 }
 
 body {
-    background: url('../img/4446627.webp') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url('../img/4446627.webp') no-repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
     background-size: cover;
 }
 
@@ -177,7 +178,7 @@ body {
     .dropdown_list {
         display: flexbox;
         margin: 25px;
-    
+
     }
 
     #submitBtn {
@@ -205,4 +206,4 @@ body {
         display: none;
     }
 
-  }
+}
