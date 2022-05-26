@@ -35,3 +35,21 @@ window.onclick = function (event) {
     }
   }
 }
+
+/* Submit Button Randomizer*/
+
+var myImages1 = new Array();
+myImages1.push("../img/another.jpg");
+myImages1.push("../img/attack on titan.jpg");
+myImages1.push("../img/darling.jpg");
+myImages1.push("../img/gintama.jpg");
+myImages1.push("../img/neon genesis.jpg");
+
+
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function pickimg2() {
+  document.randimg.src = myImages1[getRandomInt(0, myImages1.length - 1)];
+}

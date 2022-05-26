@@ -91,8 +91,8 @@ body {
 
 /* Dropdown List*/
 .dropdown_list {
-    display: flexbox;
-    align-content: center;
+    margin: auto;
+    text-align: center;
 
 }
 
@@ -151,8 +151,8 @@ body {
 #submitBtn {
     font-family: 'Bungee';
     font-size: .60em;
-    display: flex;
-    margin: 50px 0 0 328px;
+    margin: auto;
+    text-align: center;
 }
 
 #gif {
@@ -165,7 +165,7 @@ body {
 
 /* Mobile First media query */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     h2 {
         font-size: .70em;
     }
@@ -185,7 +185,8 @@ body {
         font-family: 'Bungee';
         font-size: .5em;
         display: flex;
-        margin: 0 0 0 50px;
+        margin: auto;
+        justify-content: center;
     }
 
     ul {
@@ -204,6 +205,8 @@ body {
 
     #gif {
         display: none;
+        margin: auto;
+        text-align: center;
     }
 
 }
