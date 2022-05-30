@@ -153,6 +153,7 @@ body {
     font-size: .60em;
     margin: auto;
     text-align: center;
+    padding-top: 50px;
 }
 
 #gif {
@@ -161,6 +162,13 @@ body {
     left: 50%;
     margin-top: 70px;
     margin-left: -250px;
+}
+
+#img {
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    padding-top: 75px;
 }
 
 /* Mobile First media query */
@@ -184,7 +192,7 @@ body {
     #submitBtn {
         font-family: 'Bungee';
         font-size: .5em;
-        display: flex;
+        display: flexbox;
         margin: auto;
         justify-content: center;
     }
@@ -207,6 +215,15 @@ body {
         display: none;
         margin: auto;
         text-align: center;
+    }
+
+    #img {
+        display: flexbox;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding-top: 50px;
     }
 
 }
