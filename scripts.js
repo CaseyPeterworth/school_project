@@ -39,11 +39,11 @@ window.onclick = function (event) {
 /* Submit Button Randomizer*/
 
 var myImages1 = new Array();
-myImages1.push("/img/another.jpg");
-myImages1.push("/img/attack on titan.jpg");
-myImages1.push("/img/darling.jpg");
-myImages1.push("/img/gintama.jpg");
-myImages1.push("/img/neon genesis.jpg");
+myImages1.push("img/another.jpg");
+myImages1.push("img/attack on titan.jpg");
+myImages1.push("img/darling.jpg");
+myImages1.push("img/gintama.jpg");
+myImages1.push("img/neon genesis.jpg");
 
 
 function getRandomInt(min, max) {
